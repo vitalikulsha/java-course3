@@ -15,7 +15,7 @@ public class StringBuilder_01 {
                         count++;
                     } else break;
                 }
-                maxCount = count > maxCount ? count : maxCount;
+                maxCount = (count > maxCount) ? count : maxCount;
             }
         }
         System.out.println("В строке \"" + str + "\" наибольшее количество подряд идущих пробелов равно " + maxCount);
