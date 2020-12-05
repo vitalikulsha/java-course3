@@ -102,8 +102,8 @@ Cоздать приложение, разбирающее текст (текс�
     public static String sortingSentences(String sentence) {
         //шаблон для поиска слов и массив из найденых слов
 
-        Pattern patternSymbol = Pattern.compile("[A-ZА-Яa-zа-я0-9-]+");
-        Matcher matcherSymbol = patternSymbol.matcher(sentence.replaceAll(" - ", ""));
+        Pattern patternSymbol = Pattern.compile("[A-ZА-Яa-zа-я0-9]+");
+        Matcher matcherSymbol = patternSymbol.matcher(sentence);
         StringBuilder builder = new StringBuilder();
         while (matcherSymbol.find()) {
             builder.append(new StringBuffer(matcherSymbol.group()) + " ");
@@ -120,8 +120,8 @@ Cоздать приложение, разбирающее текст (текс�
     /*3. отсортировать лексемы в предложении по убыванию количества вхождений заданного символа,
          а в случае равенства – по алфавиту.*/
     public static String sortedWordsCountSymbol(String sentence, char symbol) {
-        Pattern patternSymbol = Pattern.compile("[A-ZА-Яa-zа-я0-9-]+");
-        Matcher matcherSymbol = patternSymbol.matcher(sentence.replaceAll("- ", ""));
+        Pattern patternSymbol = Pattern.compile("[A-ZА-Яa-zа-я0-9]+");
+        Matcher matcherSymbol = patternSymbol.matcher(sentence);
         StringBuilder builder = new StringBuilder();
         while (matcherSymbol.find()) {
             builder.append(new StringBuffer(matcherSymbol.group()) + " ");
