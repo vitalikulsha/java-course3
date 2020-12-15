@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <notes>
    <note id = "1">
        <to>Вася</to>
@@ -12,19 +11,4 @@
        <heading>Важное напоминание</heading>
        <body/>
    </note>
-=======
-<notes>
-   <note id = "1">
-       <to>Вася</to>
-       <from>Света</from>
-       <heading>Напоминание</heading>
-       <body>Позвони мне завтра!</body>
-   </note>
-   <note id = "2">
-       <to>Петя</to>
-       <from>Маша</from>
-       <heading>Важное напоминание</heading>
-       <body/>
-   </note>
->>>>>>> dd57e2e1f72222216d98e431ad5a7cd292863990
 </notes>
