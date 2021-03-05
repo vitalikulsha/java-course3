@@ -18,7 +18,7 @@
 5. [String_05](https://github.com/vitalikulsha/java-course3/blob/master/3_StringCharArray/String_05.java) - Удалить в строке все лишние пробелы, то есть серии подряд идущих пробелов заменить на одиночные пробелы. Крайние пробелы в строке удалить.
 
 ## [Working with a string as a String or StringBuilder](https://github.com/vitalikulsha/java-course3/tree/master/4_StringAndStringBuilder)
-1.[StringBuilder_01](https://github.com/vitalikulsha/java-course3/blob/master/4_StringAndStringBuilder/StringBuilder_01.java) - Дан текст (строка). Найдите наибольшее количество подряд идущих пробелов в нем.
+1. [StringBuilder_01](https://github.com/vitalikulsha/java-course3/blob/master/4_StringAndStringBuilder/StringBuilder_01.java) - Дан текст (строка). Найдите наибольшее количество подряд идущих пробелов в нем.
 
 2. [StringBuilder_02](https://github.com/vitalikulsha/java-course3/blob/master/4_StringAndStringBuilder/StringBuilder_02.java) - В строке вставить после каждого символа 'a' символ 'b'.
 
@@ -37,3 +37,31 @@
 9. [StringBuilder_09](https://github.com/vitalikulsha/java-course3/blob/master/4_StringAndStringBuilder/StringBuilder_09.java) - Посчитать количество строчных (маленьких) и прописных (больших) букв в введенной строке. Учитывать только английские буквы.
 
 10. [StringBuilder_10](https://github.com/vitalikulsha/java-course3/blob/master/4_StringAndStringBuilder/StringBuilder_10.java) - Строка X состоит из нескольких предложений, каждое из которых кончается точкой, восклицательным или вопросительным знаком. Определить количество предложений в строке X.
+## [Working with regular expressions (Pattern, Matcher)](https://github.com/vitalikulsha/java-course3/tree/master/5_RegularExpressions)
+1. Cоздать приложение, разбирающее текст (текст хранится в строке) и позволяющее выполнять с текстом три различных операции: отсортировать абзацы по количеству предложений; в каждом предложении отсортировать слова по длине; отсортировать лексемы в предложении по убыванию количества вхождений заданного символа, а в случае равенства – по алфавиту.
+
+ 
+
+2.  Дана строка, содержащая следующий текст (xml-документ):
+
+ 
+```
+<notes>
+   <note id = "1">
+       <to>Вася</to>
+       <from>Света</from>
+       <heading>Напоминание</heading>
+       <body>Позвони мне завтра!</body>
+   </note>
+   <note id = "2">
+       <to>Петя</to>
+       <from>Маша</from>
+       <heading>Важное напоминание</heading>
+       <body/>
+   </note>
+</notes>
+```
+
+ 
+
+Напишите анализатор, позволяющий последовательно возвращать содержимое узлов xml-документа и его тип (открывающий тег, закрывающий тег, содержимое тега, тег без тела). Пользоваться готовыми парсерами XML для решения данной задачи нельзя.
