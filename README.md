@@ -1,13 +1,13 @@
 # Strings and basics of text processing
 
+### Description
+### Решите задачи. Каждое решение можно оформить в отдельном классе.
+
 # ОГЛАВЛЕНИЕ
 ## 1. [Working with a string as an array of characters](#Working-with-a-string-as-an-array-of-characters)
 ## 3. [Working with a string as a String or StringBuilder](#Working-with-a-string-as-a-String-or-StringBuilder)
 ## 4. [Working with regular expressions (Pattern, Matcher)](#Working-with-regular-expressions-(Pattern,-Matcher))
 ## 5. [Questions](#Questions)
-
-### Description
-### Решите задачи. Каждое решение можно оформить в отдельном классе.
 
 ## [Working with a string as an array of characters](https://github.com/vitalikulsha/java-course3/tree/master/3_StringCharArray)
 
