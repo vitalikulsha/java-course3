@@ -37,6 +37,9 @@
 9. [StringBuilder_09](https://github.com/vitalikulsha/java-course3/blob/master/4_StringAndStringBuilder/StringBuilder_09.java) - Посчитать количество строчных (маленьких) и прописных (больших) букв в введенной строке. Учитывать только английские буквы.
 
 10. [StringBuilder_10](https://github.com/vitalikulsha/java-course3/blob/master/4_StringAndStringBuilder/StringBuilder_10.java) - Строка X состоит из нескольких предложений, каждое из которых кончается точкой, восклицательным или вопросительным знаком. Определить количество предложений в строке X.
+
+### Каждое решение можно оформить в отдельном проекте.
+
 ## [Working with regular expressions (Pattern, Matcher)](https://github.com/vitalikulsha/java-course3/tree/master/5_RegularExpressions)
 1. [RegEx_1](https://github.com/vitalikulsha/java-course3/blob/master/5_RegularExpressions/RegEx_1.java) - Cоздать приложение, разбирающее текст (текст хранится в строке) и позволяющее выполнять с текстом три различных операции: отсортировать абзацы по количеству предложений; в каждом предложении отсортировать слова по длине; отсортировать лексемы в предложении по убыванию количества вхождений заданного символа, а в случае равенства – по алфавиту.
 
