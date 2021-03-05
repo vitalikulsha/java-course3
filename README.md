@@ -1,10 +1,10 @@
+# Strings and basics of text processing
+
 # ОГЛАВЛЕНИЕ
 ## 1. [Working with a string as an array of characters](#Working-with-a-string-as-an-array-of-characters)
 ## 3. [Working with a string as a String or StringBuilder](#Working-with-a-string-as-a-String-or-StringBuilder)
 ## 4. [Working with regular expressions (Pattern, Matcher)](#Working-with-regular-expressions-(Pattern,-Matcher))
 ## 5. [Questions](#Questions)
-
-# Strings and basics of text processing
 
 ### Description
 ### Решите задачи. Каждое решение можно оформить в отдельном классе.
