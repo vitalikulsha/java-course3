@@ -1,11 +1,11 @@
 # Strings and basics of text processing
 
-## [Working with a string as an array of characters](https://github.com/vitalikulsha/java-course3/tree/master/3_StringCharArray)
-
 ### Description
 ### Решите задачи.
 
 ### Каждое решение можно оформить в отдельном классе.
+
+## [Working with a string as an array of characters](https://github.com/vitalikulsha/java-course3/tree/master/3_StringCharArray)
 
 1. [String_01](https://github.com/vitalikulsha/java-course3/blob/master/3_StringCharArray/String_01.java) - Дан массив названий переменных в camelCase. Преобразовать названия в snake_case.
 
